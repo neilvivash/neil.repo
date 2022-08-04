@@ -1,4 +1,3 @@
-hello
 terraform {
   required_providers {
     aws = {
