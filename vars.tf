@@ -6,7 +6,7 @@ variable "ec2_ami" {
 
   default = {
     eu-west-2 = "ami-0bb712bfc5b5ce8f9"
-    us-west-1 = "ami-006fce872b320923e"
+    
   }
 }
 
