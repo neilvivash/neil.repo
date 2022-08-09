@@ -5,7 +5,7 @@ variable "ec2_ami" {
   type = map
 
   default = {
-    us-east-2 = "ami-0416962131234133f"
+    eu-west-2 = "ami-0bb712bfc5b5ce8f9"
     us-west-1 = "ami-006fce872b320923e"
   }
 }
@@ -13,7 +13,7 @@ variable "ec2_ami" {
 # Creating a Variable for region
 
 variable "region" {
-  default = us-east-2
+  default = eu-west-2
 }
 
 
