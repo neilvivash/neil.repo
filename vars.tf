@@ -12,7 +12,7 @@ variable "ec2_ami" {
 
 # Creating a Variable for region
 
-variable "aws_region" {
+variable "region" {
   type = string
   default = "eu-west-2"
 }
