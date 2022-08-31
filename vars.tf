@@ -13,7 +13,7 @@ variable "ec2_ami" {
 
 # Creating a Variable for region
 
-variable "region" {}
+variable "region" {
   default = eu-west-2    
 }
 
