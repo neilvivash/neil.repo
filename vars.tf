@@ -5,7 +5,9 @@ variable "ec2_ami" {
   type = map
 
   default = {
-    eu-west-2 = "ami-0bb712bfc5b5ce8f9"
+    eu-west-2 = "ami-00785f4835c6acf64"
+    eu-west-1 = "ami-09e2d756e7d78558d"
+    
   }
 }
 
